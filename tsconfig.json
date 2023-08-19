@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "ES2022",
+    "baseUrl": ".",
+    "rootDir": "./src"
+  },
+  "lib": ["ES2023"],
+  "include": ["src/**/*.ts"]
+}
